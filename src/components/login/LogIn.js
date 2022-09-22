@@ -53,7 +53,7 @@ import { auth } from '../../firebase'
           <b>{errorMsg}</b>
           <button onClick={()=>handleSubmit()} disabled={submitButtonDesable}>SignUp</button>
           <p>
-            Already have an account?{" "}
+            Create an account ? {" "}
             <span>
               <Link to="/signup">SignUp</Link>
             </span>
